@@ -1,10 +1,10 @@
 class Pwnpad < Formula
   desc "🐳 VMs are bloat. Dockerise your CTF environment."
   homepage "https://hub.docker.com/r/platypew/pwnpad"
-  url "https://github.com/pwnpad/pwnpad/archive/refs/tags/v1.2.1.tar.gz"
-  sha256 "02f219e97f4a989124b4f8fda650599a51c7e192af749272601c52236c819e38"
+  url "https://github.com/pwnpad/pwnpad/archive/refs/tags/v1.2.2.tar.gz"
+  sha256 "59113c40b86acad26905fbc8896fedb697e41595f287ef2d186f2cc155d3b709"
   license "MIT"
-  version "1.2.1"
+  version "1.2.2"
 
   depends_on "docker" => :optional
 
